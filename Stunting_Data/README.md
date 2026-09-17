@@ -16,20 +16,19 @@ projet de classification du risque de malnutrition infantile.
 - [Remarque](#remarque)
 
 ## Emplacement dans le projet
-
 ```
-malnutrition/
-├── notebooks/
-│   └── preparation_donnees.ipynb
-└── data/                 <- ce README
-    ├── originaux/         <- fichiers .sav bruts, jamais modifiés
-    └── convertis/         <- CSV et Parquet générés par le notebook
+Stunting/
+├── Stunting_Data/
+│   ├── Datasets_originaux/     <- ch.sav, hh.sav, wm.sav
+│   └── Datasets_convertis/     <- CSV et Parquet générés par ce notebook
+└── Stunting_Notebook/
+│   ├── preparation_donnees.ipynb/ 
 ```
 
-Ce README documente le contenu de `data/`. Les fichiers `.sav` d'origine vont
-dans `data/originaux/` ; le notebook de préparation (`notebooks/`) lit ce
-dossier et écrit ses résultats dans `data/convertis/`, sans jamais modifier
-`data/originaux/`.
+Ce README documente le contenu de `Stunting_Data/`. Les fichiers `.sav` d'origine vont
+dans `Stunting_Data/Datasets_originaux/` ; le notebook de préparation (`notebooks/`) lit ce
+dossier et écrit ses résultats dans `Stunting_Data/Datasets_convertis/`, sans jamais modifier
+`Stunting_Data/Datasets_originaux/`.
 
 ## Source
 
