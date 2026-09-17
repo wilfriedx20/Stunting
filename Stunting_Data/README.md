@@ -88,9 +88,6 @@ fichier (même ménage, même individu).
 | `HAZ2`, `WAZ2`, `WHZ2` | Indices anthropométriques standardisés (référence OMS 2006) - non utilisés comme question, seulement pour construire la cible à l'entraînement |
 | `HAZFLAG`, `WAZFLAG`, `WHZFLAG`, `FLAG` | Indicateurs de qualité de la mesure anthropométrique |
 
-`BD2` (l'enfant a déjà été allaité) a été retiré : 93% de "Oui" parmi les
-répondants, variable trop peu discriminante. `BD3` (allaitement en cours) est
-conservé seul, mieux réparti.
 
 **Questionnaire de terrain retenu : 13 questions**, hors identifiants et hors
 indices anthropométriques (`HH6`, `HH7`, `WS1`, `WS11`, `windex5`, `HH48`,
